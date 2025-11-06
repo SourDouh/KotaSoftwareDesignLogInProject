@@ -18,7 +18,6 @@ Running Android requires at least 12 gigabytes of free space on your computer
 brew install yarn
 brew install npm
 ```
- - Download Android Studio from their website: [https://developer.android.com/studio](url)
  - Download Metro
 ```
 yarn add --dev metro metro-core
