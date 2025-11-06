@@ -12,8 +12,34 @@
 to run:
 
 Android:
-install metro + android emulator and simply type yarn android
-I had to remove a bunch of files for the github push work. make sure to yarn/npm install.
+Running Android requires at least 12 gigabytes of free space on your computer
+ - Install package managers:
+```
+brew install yarn
+brew install npm
+```
+ - Download Android Studio from their website: [https://developer.android.com/studio](url)
+ - Download Metro
+```
+yarn add --dev metro metro-core
+```
+ - Install packages:
+```
+npm install
+yarn install
+```
+ - Follow React's setup instructions at: [https://reactnative.dev/docs/set-up-your-environment?os=macos&platform=android&guide=native#android-sdk](url)
+ - Navigate to the _android_ directory and start _Metro_
+```
+cd NuevaLoginTake4/android
+yarn start
+```
+ - In a new terminal window, navigate to the _NuevaLoginTake4_ and run the program
+```
+cd NuevaLoginTake4
+yarn android
+```
+
 
 IOS:
 get xcode, install cocoapods, have a working Xcode version (MacOS Tahoe or something) that's compatible with this RN version.
